@@ -101,7 +101,7 @@ OMM-RLC/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-Dishaaaa/Intelligent-Optimized-Multimodal-Learning-Framework-for-Early-Prediction-of-Lung-Cancer-recurrence.git
+git clone https://github.com/your-DishaRanganath/Intelligent-Optimized-Multimodal-Learning-Framework-for-Early-Prediction-of-Lung-Cancer-recurrence.git
 cd OMM-RLC
 ```
 
@@ -139,7 +139,7 @@ This project is intended for **academic and research purposes only**. It is **no
 
 ## 👩‍💻 Author
 
-**Disha Ranganathappa**
+**Disha R**
 Department of Electronics and Communication Engineering
 Bachelor of Engineering (B.E.) Major Project
 
