@@ -91,7 +91,6 @@ OMM-RLC/
 │   └── image_model.ipynb
 │
 │── app.py
-│── requirements.txt
 │── README.md
 ```
 
@@ -102,7 +101,7 @@ OMM-RLC/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-Dishaaaa/Intelligent-Optimized-Multimodal-Learning-Framework-for-Early-Prediction-of-Lung-Cancer-Recurrence.git
+git clone https://github.com/your-Dishaaaa/Intelligent-Optimized-Multimodal-Learning-Framework-for-Early-Prediction-of-Lung-Cancer-recurrence.git
 cd OMM-RLC
 ```
 
