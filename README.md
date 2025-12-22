@@ -1,84 +1,153 @@
+# An Intelligent Optimized Multimodal Learning Framework for Early Prediction of Lung Cancer Recurrence
 
-🫁 Optimized Multi-Model Fusion for Accurate Lung Cancer Prediction (OMMRLC)
+## 📌 Project Overview
 
-This project focuses on developing a hybrid deep learning and machine learning framework for accurate lung cancer prediction.
-It fuses insights from clinical data and medical imaging to achieve high diagnostic accuracy using XGBoost and VGG16 models.
+An Intelligent Optimized Multimodal Learning Framework for Early Prediction of Lung Cancer Recurrence is an AI-driven healthcare project aimed at predicting lung cancer recurrence by integrating **clinical data** and **CT scan images**. The project leverages both **machine learning** and **deep learning** models to improve prediction accuracy and support early clinical decision-making.
 
-🧠 Project Overview
+This project is designed as a **Bachelor of Engineering (B.E.) major project** and focuses on building an end-to-end, research-oriented, real-world medical AI system.
 
-Early detection of lung cancer significantly improves treatment outcomes and survival rates.
-However, relying on a single data source (like images or clinical records alone) often limits accuracy.
+---
 
-The OMMRLC system integrates:
+## 🎯 Objectives
 
--A clinical model trained on patient data using XGBoost.
+* Predict the likelihood of lung cancer recurrence at an early stage
+* Fuse heterogeneous data sources (clinical + imaging)
+* Improve prediction performance over unimodal approaches
+* Provide an interpretable and deployable AI solution for healthcare
 
--An image model trained on CT scan images using VGG16 (a convolutional neural network).
+---
 
--By fusing both models, the system leverages complementary information from structured and visual data to provide robust and precise cancer predictions.
+## 🧠 System Architecture
 
-⚙️ Key Features
+The system follows a **multimodal fusion pipeline**:
 
-🩺 Clinical Data Model (XGBoost): Trained on structured patient data such as age, gender, smoking history, and biomarkers.
+1. **Clinical Data Processing**
 
-🧠 Image Model (VGG16): Utilizes transfer learning from VGG16 pretrained on ImageNet for lung CT image classification.
+   * Data cleaning and preprocessing
+   * Feature engineering and normalization
+   * Model: XGBoost 
 
-🔗 Model Fusion: Combines outputs from both models using weighted averaging or a meta-classifier for improved performance.
+2. **Image Data Processing**
 
-📈 Comprehensive Evaluation: Analyzes both individual and fused model metrics for accuracy, recall, precision, and ROC-AUC.
+   * CT scan preprocessing
+   * Feature extraction using CNN (VGG16)
+   * Deep feature representation
 
-🧩 Project Workflow
+3. **Multimodal Fusion**
 
-1.Data Preparation
+   * Fusion of clinical and imaging features
+   * Optimized feature combination strategy using Late fusion
 
-Collected and cleaned clinical data (CSV format).
+4. **Prediction Layer**
 
-Preprocessed CT scan images (resizing, normalization, augmentation).
+   * Final recurrence prediction (Yes / No)
 
-2.Clinical Model Training (XGBoost)
+5. **Web Interface (Optional Deployment)**
 
-Encoded categorical features and handled missing values.
+   * Streamlit-based UI for prediction
 
-Trained an XGBoost classifier for predicting cancer probability.
+---
 
-3.Image Model Training (VGG16)
+## 🛠️ Tech Stack
 
-Used transfer learning with pre-trained VGG16 architecture.
+### Programming & Frameworks
 
-Fine-tuned layers for domain-specific learning on medical images.
+* Python 3.x
+* NumPy, Pandas
+* Scikit-learn
+* TensorFlow / Keras
+* OpenCV
 
-4.Fusion Layer
+### Models Used
 
-Combined prediction probabilities from both models.
+* **XGBoost** – Clinical data prediction
+* **VGG16 (CNN)** – CT image feature extraction
 
-Used a simple average or a meta-learner for final classification.
 
-5.Evaluation
+### Tools
 
-Compared individual vs. fused model performance using metrics:
+* Jupyter Notebook
+* Streamlit (for web deployment)
+* Git & GitHub
 
-     Accuracy
+---
 
-    Precision
+## 📂 Project Structure
 
-    Recall
+```
+OMM-RLC/
+│── data/
+│   ├── clinical_data.csv
+│   └── ct_images/
+│
+│── models/
+│   ├── xgb_model_final.pkl
+│   ├── vgg16_model.h5
+│   └── fusion_model.pkl
+│
+│── notebooks/
+│ 
+│   ├── clinical_model.ipynb
+│   └── image_model.ipynb
+│
+│── app.py
+│── requirements.txt
+│── README.md
+```
 
-    F1-score
+---
 
-    ROC-AUC
+## ⚙️ Installation & Setup
 
-🧰 Tech Stack
+1. Clone the repository:
 
--Language: Python
+```bash
+git clone https://github.com/your-Dishaaaa/Intelligent-Optimized-Multimodal-Learning-Framework-for-Early-Prediction-of-Lung-Cancer-Recurrence.git
+cd OMM-RLC
+```
 
--Libraries: NumPy, Pandas, Scikit-learn, XGBoost, TensorFlow, Keras, Matplotlib, Seaborn
 
--Tools: Jupyter Notebook / Google Colab
 
-📊 Results & Insights
+3. Run the web application:
 
--The fused model achieved significantly higher accuracy compared to standalone models.
+```bash
+streamlit run app.py
+```
 
--Clinical and imaging features provided complementary diagnostic insights.
+---
 
--XGBoost + VGG16 fusion improved both sensitivity and specificity for early lung cancer detection.
+## 📊 Results
+
+* Improved accuracy and robustness
+* Better generalization for recurrence prediction.
+
+---
+
+## 🚀 Future Enhancements
+
+* Integration of survival analysis
+* Explainable AI (SHAP / Grad-CAM)
+* Real-time hospital data integration
+* Cloud deployment (AWS / Azure)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for **academic and research purposes only**. It is **not a certified medical diagnostic tool** and should not be used for real-world clinical decisions without professional validation.
+
+---
+
+## 👩‍💻 Author
+
+**Disha Ranganathappa**
+Department of Electronics and Communication Engineering
+Bachelor of Engineering (B.E.) Major Project
+
+---
+
+## ⭐ Acknowledgements
+
+* Open-source medical datasets
+* TensorFlow & Scikit-learn communities
+* Research papers on multimodal medical AI
