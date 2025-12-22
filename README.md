@@ -72,29 +72,7 @@ The system follows a **multimodal fusion pipeline**:
 
 ---
 
-## 📂 Project Structure
 
-```
-OMM-RLC/
-│── data/
-│   ├── clinical_data.csv
-│   └── ct_images/
-│
-│── models/
-│   ├── xgb_model_final.pkl
-│   ├── vgg16_model.h5
-│   └── fusion_model.pkl
-│
-│── notebooks/
-│ 
-│   ├── clinical_model.ipynb
-│   └── image_model.ipynb
-│
-│── app.py
-│── README.md
-```
-
----
 
 ## ⚙️ Installation & Setup
 
