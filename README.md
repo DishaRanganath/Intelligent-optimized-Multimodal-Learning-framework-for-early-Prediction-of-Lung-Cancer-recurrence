@@ -80,7 +80,7 @@ The system follows a **multimodal fusion pipeline**:
 
 ```bash
 git clone https://github.com/your-DishaRanganath/Intelligent-Optimized-Multimodal-Learning-Framework-for-Early-Prediction-of-Lung-Cancer-recurrence.git
-cd OMM-RLC
+cd Intelligent-optimized-Multimodal-Learning-framework-for-early-Prediction-of-Lung-Cancer-recurrence
 ```
 
 
