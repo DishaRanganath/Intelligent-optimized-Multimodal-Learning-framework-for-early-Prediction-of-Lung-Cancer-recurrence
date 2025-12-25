@@ -1,6 +1,6 @@
 # An Intelligent Optimized Multimodal Learning Framework for Early Prediction of Lung Cancer Recurrence
 
-## 📌 Project Overview
+## Project Overview
 
 An Intelligent Optimized Multimodal Learning Framework for Early Prediction of Lung Cancer Recurrence is an AI-driven healthcare project aimed at predicting lung cancer recurrence by integrating **clinical data** and **CT scan images**. The project leverages both **machine learning** and **deep learning** models to improve prediction accuracy and support early clinical decision-making.
 
@@ -8,7 +8,7 @@ This project is designed as a **Bachelor of Engineering (B.E.) major project** a
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Predict the likelihood of lung cancer recurrence at an early stage
 * Fuse heterogeneous data sources (clinical + imaging)
@@ -17,7 +17,7 @@ This project is designed as a **Bachelor of Engineering (B.E.) major project** a
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 The system follows a **multimodal fusion pipeline**:
 
@@ -48,7 +48,7 @@ The system follows a **multimodal fusion pipeline**:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Programming & Frameworks
 
@@ -74,7 +74,7 @@ The system follows a **multimodal fusion pipeline**:
 
 
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. Clone the repository:
 
@@ -93,14 +93,14 @@ streamlit run app.py
 
 ---
 
-## 📊 Results
+##  Results
 
 * Improved accuracy and robustness
 * Better generalization for recurrence prediction.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Integration of survival analysis
 * Explainable AI (SHAP / Grad-CAM)
@@ -109,13 +109,13 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is intended for **academic and research purposes only**. It is **not a certified medical diagnostic tool** and should not be used for real-world clinical decisions without professional validation.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Disha R**
 Department of Electronics and Communication Engineering
